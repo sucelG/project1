@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2efef;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+header h1 {
+  width: 70vw;
+  font-weight: normal;
+  margin-top: 3rem;
+}
+
+header img {
+  height: 7rem;
+  width: 7rem;
+  margin-top: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  background: rgb(255, 255, 255);
+  padding: 0.7rem;
+  margin: 1rem;
+  border-radius: 4px;
+}
+
+#search,
+#login,
+#register,
+#post-accommodation,
+#user-accommodations,
+#all-accommodations {
+  padding: 20px;
+  text-align: center;
+}
+
+#search form,
+#loginForm,
+#registerForm,
+#postForm {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+#search input,
+#loginForm input,
+#registerForm input,
+#postForm input,
+#postForm textarea {
+  padding: 8px;
+  margin: 1rem;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  height: 2.5rem;
+  width: 18rem;
+}
+
+#listings,
+#user-accommodations,
+#all-accommodations {
+  padding: 20px;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#listings h2{
+width: 100vw;
+text-align: center;
+font-weight: normal;
+}
+button {
+  height: 3rem;
+  min-width: 8rem;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background: blue;
+  color: #fff;
+  border-radius: 6px;
+  padding: 8px;
+  margin: 1rem;
+  cursor: pointer;
+}
+.listing {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 2rem 6rem;
+color: #000000;
+}
+.listing button{
+    display: block;
+}
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}

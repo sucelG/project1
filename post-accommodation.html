@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CIHE Student Accommodation - Post Accommodation</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="shortcut icon" href="/images/logo.jpg" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <a href="/"> <img src="/images/logo.jpg" alt="logo" /></a>
+      <h1>Post Accommodation</h1>
+
+      <nav>
+        <ul>
+          <li><a href="/pages/login.html">Login</a></li>
+          <li><a href="/pages/register.html">Register</a></li>
+          <li>
+            <a href="/pages/post-accommodation.html">Post Accommodation</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Posting Form -->
+    <section id="post-accommodation">
+      <form id="postForm">
+        <input type="text" placeholder="Suburb" name="suburb" required />
+        <input type="number" placeholder="Rent Price" name="price" required />
+        <input
+          type="number"
+          placeholder="Number of Rooms"
+          name="rooms"
+          required
+        />
+        <textarea placeholder="Details" name="details" required></textarea>
+        <input type="file" name="images" multiple />
+        <button type="submit">Post Accommodation</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+          &copy; 2024 CIHE Accommodation Website. Sushil Ghimire 2024 All Rights
+          Reserved!
+        </p>
+      </footer>
+
+    <script src="/scripts.js"></script>
+  </body>
+</html>

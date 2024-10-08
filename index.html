@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CIHE Student Accommodation - Homepage</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script defer type="text/javascript" src="/scripts.js"></script>
+    <link rel="shortcut icon" href="/images/logo.jpg" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <a href="/"> <img src="/images/logo.jpg" alt="logo" /></a>
+      <h1>CIHE Student Accommodation</h1>
+      <nav>
+        <ul>
+          <li><a href="/pages/login.html">Login</a></li>
+          <li><a href="/pages/register.html">Register</a></li>
+          <li><a href="/pages/post-accommodation.html">Post Accommodation</a></li>
+          <li><a href="/pages/about-us.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Search Section -->
+    <section id="search">
+      <h2>Find Your Accommodation</h2>
+      <form id="searchForm">
+        <input type="text" placeholder="Enter suburb" name="suburb" />
+        <input type="number" placeholder="Max Rent Price" name="price" />
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <!-- Accommodation Listings -->
+    <section id="listings">
+      <h2>Latest Listings:-</h2>
+      <div class="listing">
+        <h3>Suburb: Granville</h3>
+        <p>Rent: $500/week</p>
+        <p>
+          Details: 2-bedroom apartment with private parking, 10 min from train
+          station and 2 min from bus station, close to shopping ammenities.
+        </p>
+        <button>Book an Inspection</button>
+        <button>Ask a Question</button>
+      </div>
+      <div class="listing">
+        <h3>Suburb: Burwood</h3>
+        <p>Rent: $330/week</p>
+        <p>
+          Details: 1-bedroom house with street parking. 14 min walk from train
+          station, 9 min from Bus Stop. somewhat close to ammenities.
+        </p>
+        <button>Book an Inspection</button>
+        <button>Ask a Question</button>
+      </div>
+      <div class="listing">
+        <h3>Suburb: Hurstville</h3>
+        <p>Rent: $650/week</p>
+        <p>
+          Details: 3-bedroom apartment with Garage parking, 4 min from train
+          station and 1 min from bus station, close to shopping ammenities.
+        </p>
+        <button>Book an Inspection</button>
+        <button>Ask a Question</button>
+      </div>
+      <!-- Additional listings can be added here -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        &copy; 2024 CIHE Accommodation Website. Sushil Ghimire 2024 All Rights
+        Reserved!
+      </p>
+    </footer>
+  </body>
+</html>
